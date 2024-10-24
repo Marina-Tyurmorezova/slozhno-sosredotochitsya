@@ -84,7 +84,6 @@ p.rec::after {
 }
 
 .header__theme-menu-button {
-  border: 1px solid transparent;
   border: none;
   background-color: transparent;
   color: var(--accent_color);
