@@ -1,9 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   margin: 0;
-  padding: var(--margin_page);
+  padding-inline-start: var(--margin_page);
+  padding-inline-end: var(--margin_page);
   background-color: var(--background_color);
   font-family: var(--font_family);
   background-image: var(--background_image);
@@ -211,7 +213,7 @@ p.rec::after {
   }
 
   .page {
-    padding: 12px;
+    /*padding: 12px;*/
   }
 
   .rec {
