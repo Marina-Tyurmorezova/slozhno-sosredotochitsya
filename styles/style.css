@@ -3,7 +3,6 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   margin: var(--margin_page);
-  /*padding: 2px;*/
   background-color: var(--background_color);
   font-family: var(--font_family);
   background-image: var(--background_image);
@@ -14,7 +13,7 @@
 }
 
 .header {
-  min-height: 100%;
+  min-height: 100vh;
   display: grid;
   gap: 10px;
 }
@@ -98,7 +97,7 @@ p.rec::after {
   line-height: var(--nav_line_height);
   text-transform: lowercase;
   font-weight: var(--text_font_weight);
-  padding: 2px 13px;
+  padding: 1.5px 13px;
 }
 
 .title {
@@ -186,6 +185,7 @@ p.rec::after {
 }
 
 .footer {
+  min-height: 100vh;
   margin-block-start: 45px;
   display: grid;
   justify-content: center;
