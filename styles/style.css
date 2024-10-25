@@ -17,7 +17,7 @@
 
 .header {
   min-height: 100vh;
-  margin: var(--margin_page);
+  margin-inline: var(--margin_page);
   display: grid;
   gap: 10px;
 }
