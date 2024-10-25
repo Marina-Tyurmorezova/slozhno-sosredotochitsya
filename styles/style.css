@@ -6,6 +6,7 @@
   min-inline-size: 375px;
   /*margin: var(--margin_page);*/
   margin: 0;
+  padding: var(--margin_page);
   background-color: var(--background_color);
   font-family: var(--font_family);
   background-image: var(--background_image);
@@ -51,7 +52,7 @@ p.rec::after {
   box-shadow: 0px 0px 4px 2px var(--accent_color);
   margin-inline-end: 9px;
 }
-
+/*
 .decorated-zone::before {
   content: "";
   width: 25px;
@@ -73,7 +74,7 @@ p.rec::after {
   justify-self: end;
   align-self: start;
 }
-
+*/
 .header__theme-menu {
   display: grid;
   justify-self: end;
