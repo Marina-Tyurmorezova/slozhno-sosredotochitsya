@@ -3,9 +3,9 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  min-inline-size: 375px;
+  /*margin: var(--margin_page);*/
   margin: 0;
-  padding-inline-start: var(--margin_page);
-  padding-inline-end: var(--margin_page);
   background-color: var(--background_color);
   font-family: var(--font_family);
   background-image: var(--background_image);
