@@ -2,7 +2,8 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  margin: var(--margin_page);
+  margin: 0;
+  padding: var(--margin_page);
   background-color: var(--background_color);
   font-family: var(--font_family);
   background-image: var(--background_image);
@@ -189,7 +190,6 @@ p.rec::after {
   margin-block-start: 45px;
   display: grid;
   justify-content: center;
-  min-height: 100vh;
   align-items: center;
 }
 
