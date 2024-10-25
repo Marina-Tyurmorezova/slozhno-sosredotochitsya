@@ -14,8 +14,9 @@
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 100%;
   display: grid;
+  gap: 10px;
 }
 
 .rec {
@@ -102,7 +103,7 @@ p.rec::after {
 
 .title {
   margin-block-start: 65px;
-  margin-block-end: 50px;
+  margin-block-end: 45px;
   font-size: var(--title_font_size);
   line-height: var(--title_line_height);
   font-weight: var(--title_font_weight);
@@ -118,7 +119,7 @@ p.rec::after {
 }
 
 .subtitle {
-  margin-block-start: 0px;
+  margin-block-start: 0;
   margin-block-end: 70px;
   display: grid;
   font-weight: var(--subtitle_font_weight);
