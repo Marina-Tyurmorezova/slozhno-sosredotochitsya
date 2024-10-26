@@ -402,8 +402,8 @@ p.rec::after {
     column-gap: 10px;
   }
 
-  .footer_decor {
-    margin-block-start: 166px;
+  .footer {
+    margin-block-start: 0;
   }
 }
 
