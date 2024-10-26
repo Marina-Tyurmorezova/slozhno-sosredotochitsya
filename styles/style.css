@@ -405,6 +405,10 @@ p.rec::after {
   .footer {
     margin-block-start: 0;
   }
+
+  .footer_decor {
+    margin-block-start: 0;
+  }
 }
 
 /*курсор и состояния кнопок*/
