@@ -73,7 +73,7 @@ p.rec::after {
   position: absolute;
   justify-self: end;
   align-self: start;
-  margin-block-start: 10px;
+  margin-block-start: var(--margin_page);
 }
 
 .header__theme-menu {
@@ -230,14 +230,14 @@ p.rec::after {
   }
 
   .header__theme-menu {
-    padding-block-start: 146px;
+    padding-block-start: 172px;
     align-content: center;
     align-items: start;
   }
 
   .title {
     margin-inline-start: -20px;
-    margin-block-start: 173px;
+    margin-block-start: 185px;
     margin-block-end: 162px;
   }
 
@@ -254,7 +254,7 @@ p.rec::after {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(2, auto);
     gap: 20px;
-    margin-block-start: 80px;
+    margin-block-start: 60px;
   }
   .chapter:nth-child(1) .chapter_title {
     grid-row: span 2;
@@ -266,7 +266,7 @@ p.rec::after {
     grid-template-columns: 1fr 2fr;
     justify-items: start;
     gap: 20px;
-    margin-block-start: 80px;
+    margin-block-start: 62px;
   }
 
   .chapter:nth-child(3) {
