@@ -358,6 +358,7 @@ p.rec::after {
     grid-column-end: span 2;
     align-content: center;
     justify-self: center;
+    padding-block-start: 20px;
   }
 
   .header__theme-menu-list {
@@ -367,7 +368,7 @@ p.rec::after {
 
   .title {
     grid-column: span 3;
-    margin-block-start: 290px;
+    margin-block-start: 296px;
     margin-block-end: 132px;
   }
 
@@ -376,11 +377,12 @@ p.rec::after {
     grid-column-start: 3;
     grid-column-end: span 2;
     margin-block-start: 0;
-    margin-block-end: 115px;
+    margin-block-end: 125px;
   }
 
   .chapter:nth-child(1) {
     column-gap: 10px;
+    margin-block-start: 70px;
   }
 
   .chapter:nth-child(2) {
@@ -400,8 +402,8 @@ p.rec::after {
     column-gap: 10px;
   }
 
-  .footer {
-    margin-block-start: 145px;
+  .footer_decor {
+    margin-block-start: 166px;
   }
 }
 
