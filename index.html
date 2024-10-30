@@ -17,7 +17,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <p class="rec" aria-hidden="false"></p>
+      <span class="rec" aria-hidden="false"></span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -47,19 +47,19 @@
       <h1 class="title">
         <span class="aligned_text">no focus</span>
       </h1>
-      <h2 class="subtitle">
+      <p class="subtitle">
         <span class="title-decor"
           >Что делать, когда не можешь делать ничего<br />Или почему нам так
           сложно сконцентрироваться, особенно когда очень надо</span
         >
-      </h2>
+      </p>
     </header>
-    <script src="./scripts/script.js"></script>
     <main class="main">
-      <section class="chapter">
-        <h3 class="chapter_title">Почему сосредоточиться так сложно</h3>
-        <div>
-          <h4 class="chapter_paragraph title-decor">Многозадачность</h4>
+      <section class="chapter chapter_why">
+        <h2 class="chapter_title chapter_title_why">Почему сосредоточиться так сложно</h2>
+        <article class="content">
+          <div>
+          <h3 class="chapter_paragraph title-decor">Многозадачность</h3>
           <p class="chapter_text">
             Особенно сложно сосредоточиться, когда задач много и все они —
             важные. Где же легендарная многозадачность, когда она так нужна вам
@@ -67,6 +67,7 @@
             просто не существует. Исследователи
             <a
               href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7075496/"
+              target="_blank"
               class="link"
               ><span class="text-shadow">выяснили</span></a
             >, что мозгу тяжело концентрироваться даже на двух делах
@@ -75,9 +76,9 @@
             стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро
             устаём.
           </p>
-        </div>
-        <div>
-          <h4 class="chapter_paragraph title-decor">Дофамин</h4>
+          </div>
+          <div>
+          <h3 class="chapter_paragraph title-decor">Дофамин</h3>
           <p class="chapter_text">
             С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
             невозможности сосредоточиться замешана и полная противоположность
@@ -88,12 +89,14 @@
             удовольствие. Получается замкнутый круг: чем больше отвлекаешься,
             тем больше удовольствия получаешь.
           </p>
-        </div>
+          </div>
+        </article>
       </section>
-      <section class="chapter">
-        <h3 class="chapter_title">Что снижает концентрацию внимания?</h3>
-        <div>
-          <h4 class="chapter_paragraph title-decor">Многозадачность</h4>
+      <section class="chapter chapter_causes">
+        <h2 class="chapter_title chapter_title_causes">Что снижает концентрацию внимания?</h2>
+        <article class="content content_causes">
+          <div>
+          <h3 class="chapter_paragraph title-decor">Многозадачность</h3>
           <p class="chapter_text">
             Как концентрация может снижаться из-за… концентрации? Любая
             стрессовая ситуация (и резко меняющийся мир в целом) заставляет наш
@@ -102,9 +105,9 @@
             — невозможно. Концентрация — мышца, и она может не выдержать, если
             не давать ей отдохнуть.
           </p>
-        </div>
-        <div>
-          <h4 class="chapter_paragraph title-decor">Еда</h4>
+          </div>
+          <div>
+          <h3 class="chapter_paragraph title-decor">Еда</h3>
           <p class="chapter_text">
             «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
             доставляют в мозг энергию и помогают ему лучше работать. Но уходит
@@ -113,9 +116,9 @@
             заканчивается, мы чувствуем усталость и сонливость. И хотим ещё
             больше быстрых углеводов.
           </p>
-        </div>
-        <div>
-          <h4 class="chapter_paragraph title-decor">Гаджеты</h4>
+          </div>
+          <div>
+          <h3 class="chapter_paragraph title-decor">Гаджеты</h3>
           <p class="chapter_text">
             Да-да, это та самая ситуация, когда на экране ноутбука — код, в
             наушниках — подкаст, а на компьютере фоном — ещё и видео с забавными
@@ -125,18 +128,20 @@
             что чем больше времени мы проводим в гаджетах, тем больше времени
             затем нужно, чтобы вернуться к работе.
           </p>
-        </div>
+          </div>
+        </article>
       </section>
-      <section class="chapter">
-        <h3 class="chapter_title">
+      <section class="chapter chapter_advice">
+        <h2 class="chapter_title chapter_title_advice ">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
-        </h3>
-        <h4 class="chapter_paragraph title-decor">
+        </h2>
+        <article class="content">
+        <h3 class="chapter_paragraph title-decor">
           5 простых (на самом деле не очень) советов
-        </h4>
+        </h3>
         <div>
-          <h5 class="chapter_subparagraph">Представьте небо и облака</h5>
+          <h4 class="chapter_subparagraph">Представьте небо и облака</h4>
           <p class="chapter_text">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
             успокоиться. Ведь часто именно тревожные мысли о сложных задачах как
@@ -149,7 +154,7 @@
           </p>
         </div>
         <div>
-          <h5 class="chapter_subparagraph">Включите музыку</h5>
+          <h4 class="chapter_subparagraph">Включите музыку</h4>
           <p class="chapter_text">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -158,11 +163,12 @@
           </p>
         </div>
         <div>
-          <h5 class="chapter_subparagraph">Прогуляйтесь</h5>
+          <h4 class="chapter_subparagraph">Прогуляйтесь</h4>
           <p class="chapter_text">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
             <a
               href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
+              target="_blank"
               class="link"
               ><span class="text-shadow">показал</span></a
             >, что созерцание природы повышает концентрацию, в то время как
@@ -173,7 +179,7 @@
           </p>
         </div>
         <div>
-          <h5 class="chapter_subparagraph">Хорошо ешьте</h5>
+          <h4 class="chapter_subparagraph">Хорошо ешьте</h4>
           <p class="chapter_text">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
@@ -182,7 +188,7 @@
           </p>
         </div>
         <div>
-          <h5 class="chapter_subparagraph">Читайте</h5>
+          <h4 class="chapter_subparagraph">Читайте</h4>
           <p class="chapter_text">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
@@ -190,43 +196,45 @@
             часов и круто тренирует направленное внимание.
           </p>
         </div>
+        </article>
       </section>
-      <section class="chapter">
-        <h4 class="chapter_paragraph title-decor">А можно в картинках?</h4>
+      <section class="chapter chapter_images">
+        <h2 class="chapter_paragraph chapter_paragraph_images title-decor">А можно в картинках?</h2>
         <img
           class="images"
           src="./images/sunset.png"
           loading="lazy"
-          alt="рисунок заката с летащими чайками"
+          alt="Медитативное изображение неба с облаками и летящими над водой чайками, оформленное в фиолетово-лиловых тонах"
         />
         <img
           class="images"
           src="./images/ice-cream.png "
           loading="lazy"
-          alt="рисунок милого десерта"
+          alt="Изображение миски с шариками мороженого, кусочками фруктов, взбитыми сливками и вафельными трубочками, выполненное в стиле аниме"
         />
         <img
           class="images"
           src="./images/tape.png"
           loading="lazy"
-          alt="рисунок аудиокассеты"
+          alt="Коллаж в сине-лиловых тонах, на котором большая аудиокассета окружена различными медиа-атрибутами"
         />
         <img
           class="images"
           src="./images/books.png"
           loading="lazy"
-          alt="рисунок стопки книг"
+          alt="Изображение стопки из одиннадцати разноразмерных книг, лежащих труг на друге. На вершине книжной стопки стоит чайная пара с надписью Read more"
         />
         <img
           class="images"
           src="./images/street.png"
           loading="lazy"
-          alt="рисунок улицы"
+          alt="Изображение прямой городской улицы, по обеим сторонам которой стоят небольшие двухэтажные дома. На домах имеется несколько вывесок на японском языке. Вдалеке видны многоэтажные здания."
         />
       </section>
     </main>
     <footer class="footer decorated-zone">
       <h6 class="footer_decor">focus</h6>
     </footer>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

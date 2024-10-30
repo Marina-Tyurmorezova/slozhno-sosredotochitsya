@@ -12,9 +12,12 @@
   --background_color:#000028;
   --background_image: url(../images/cover-image-dark.png);
   --basic_color: #000028;
+  --nav_color: #FF0070;
+  --rec_color: #FF0070;
   --accent_title_color: #FF0070;
   --accent_color: #FF0070;
   --title_font_color: #DB00FF;
+  --chapter_title_color: #FF0070;
   --text_font_color: #F1B2CE;
   --btn_border_color_40: hsla(334, 100%, 50%, 0.4);
 }
